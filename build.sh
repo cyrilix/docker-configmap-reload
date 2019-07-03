@@ -2,7 +2,7 @@
 
 IMG_NAME=cyrilix/configmap-reload
 VERSION=0.1
-MAJOR_VERSION=0.1
+MAJOR_VERSION=0
 export DOCKER_CLI_EXPERIMENTAL=enabled
 export DOCKER_USERNAME=cyrilix
 
