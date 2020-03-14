@@ -1,8 +1,8 @@
 #! /bin/bash
 
 IMG_NAME=cyrilix/configmap-reload
-VERSION=0.1
-MAJOR_VERSION=0
+VERSION=v0.1
+MAJOR_VERSION=v0
 export DOCKER_CLI_EXPERIMENTAL=enabled
 export DOCKER_USERNAME=cyrilix
 
@@ -32,7 +32,7 @@ fetch_sources() {
     fi
     cd ${project_name}
     git reset --hard
-    git checkout v${VERSION}
+    git checkout ${VERSION}
 }
 
 build_and_push_images() {
